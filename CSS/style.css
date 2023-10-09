@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background-color: #141414;
+}
+#imagico{
+    position: absolute;
+}
+.paginaUm {
+    width: 100%;
+    max-width: 1375.2px;
+    height: auto;
+    position: relative; 
+}
+.backgorundUm{
+    filter: blur(4px);
+}
+
+@media(max-width: 780px){
+    .backgorundUm img{
+        height: 400px ;
+        width: 100%;
+    }
+}
+
+#fundoUm {
+    width: 100%;
+}
+
+#iconeHomePage {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+
+.tituloPrincipal {
+    color: #053B50;
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: 0.4px; /* largura da borda */
+    -webkit-text-stroke-color: #176B87; /* cor da borda */
+}
+
+.tituloPrincipal h2{
+    font-size: 35px;
+}
+
+
+@media (max-width: 768px) {
+    #iconeHomePage {
+        width: 60px;
+        margin: 0 auto;
+        display: block;
+    }
+    .tituloPrincipal {
+        font-size: 20px;
+    }
+
+    .tituloPrincipal h2{
+        font-size: 18px;
+    }
+}
+
+/* Página Dois*/
+
+.paginaDois{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.imagemServicos h1{
+    color: #053B50;
+    font-size: 40px;
+}
+.imagemServicos{
+    display: inline-block;
+}
+.imagemServicos img{
+    width: 87%;
+    margin-top: 10px;
+}
+.backg{
+    margin-right: 30px;
+    text-align: left;
+    margin-top: 50px;
+}
+.backg h1{
+    color:#61677A;
+}
+.backg h2{
+    color: #D8D9DA;
+}
+@media(max-width:768px){
+    .paginaDois{
+        height: 900px;
+        display: block;
+        margin-left: 40px;
+    }
+    .imagemServicos img{
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+/*Página Três*/
+
+.paginaTres{
+    background-color: white;
+    height: 600px;
+}
+@media(max-width:780px){
+    .paginaTres{
+        height: 1300px;
+        text-align: left;
+    }
+}
+
+.empresasPar img{
+    width: 300px;
+    text-align: center;
+    display: block;
+    
+}
+.empresasPar{
+    display: inline-block;
+    background-color: #141414;
+    color: #ffffff;
+    margin-left: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.empresasPai{
+    text-align: center;
+}
+.infoClientes{
+    margin-left: 60px;
+    padding: 80px;
+}
+.infoClientes h1{
+    margin-bottom: 10px;
+    color: #053B50;
+    font-size: 40px;
+}
+.infoClientes h2{
+    margin-bottom: -50px;
+    color: #141414;
+    font-size: 25px;
+}
+.empresasPar:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+@media(max-width:780px){
+    .infoClientes{
+        font-size: 10px;
+        text-align: left;
+        margin-left: -30px ;
+    }
+    .infoClientes h1{
+        margin-bottom: 10px;
+    }
+    .infoClientes h2{
+        margin-bottom: -50px;
+    }
+}
+
+/*Página Quatro*/
+
+.paginaQuatro{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.contateNos h1{
+    color: #053B50;
+    font-size: 40px;
+}
+.contateNos{
+    display: inline-block;
+}
+.contateNos img{
+    width: 565px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.chame{
+    text-align: left;
+    margin-top: 100px;
+    margin-right: 400px;
+}
+.chame h1{
+    color:#61677A;
+    font-size: 40px;
+}
+.chame h2{
+    color: #D8D9DA;
+    font-size: 25px;
+}
+
+.chame a{
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #141414; 
+    width: 80px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #053B50;
+    cursor: pointer;  
+    text-align: center;
+}
+.chame a:hover{
+    background-color: #176B87;
+    transition: 1s; 
+    color: #64CCC5;
+}
+@media(max-width:768px){
+    .paginaQuatro{
+        width: 100px;
+        height: 800px;
+        display: block;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .contateNos img{
+        width: 300px;
+        margin-top: 10px;
+        margin-right: 0%;
+        margin-left: 20px;
+    }
+    .contateNos h1{
+        color: #053B50;
+        text-align: center;
+    }
+    .chame{
+        margin-left: 40px;
+        text-align: center;
+    }
+    .chame h1{
+        font-size: 30px;
+    }
+    .chame h2{
+        font-size: 15px;
+    }
+
+}
